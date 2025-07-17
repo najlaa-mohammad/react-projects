@@ -1,0 +1,21 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #f1cbcb;  /* خلفية داكنة */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; /* توسيط العناصر أفقياً */
+  gap: 20px; /* مسافة بين الروابط */
+}
+
+.navbar a {
+  color: black;          /* لون النص */
+  text-decoration: none; /* إزالة التسطير */
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #4caf50; /* لون أخضر عند المرور بالفأرة */
+}
